@@ -75,11 +75,7 @@ const AboutUs = () => {
               <span className="ml-auto text-gray-900">+91-99640 07532</span>
             </div>
 
-            <div className="flex">
-              <button className="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">
-                Contact Us
-              </button>
-            </div>
+
           </div>
 
           {/* Logo or Image */}

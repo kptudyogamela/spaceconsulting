@@ -7,7 +7,7 @@ const projects = [
     category: 'HOUSE',
     title: 'Modern Duplex House',
     description: 'Contemporary duplex with spacious interiors and sustainable features, built in Mysore.',
-    image: 'https://dummyimage.com/101x101',
+    image: '/logo/logo1.png',
   },
   {
     month: 'Mar',
@@ -15,7 +15,7 @@ const projects = [
     category: 'VILLA',
     title: 'Luxury Villa',
     description: 'A scenic hillside villa with modern amenities, large windows, and landscaped gardens.',
-    image: 'https://dummyimage.com/102x102',
+    image: '/logo/logo1.png',
   },
   {
     month: 'May',
@@ -23,7 +23,7 @@ const projects = [
     category: 'HOSPITAL',
     title: 'City Medical Center',
     description: 'Design and construction of a 50-bed hospital with modular operation theaters and ICU.',
-    image: 'https://dummyimage.com/103x103',
+    image: '/logo/logo1.png',
   },
   {
     month: 'Jun',
@@ -31,7 +31,7 @@ const projects = [
     category: 'FARM HOUSE',
     title: 'Green Retreat',
     description: 'Rustic style farmhouse nestled amidst greenery with open verandas and natural materials.',
-    image: 'https://dummyimage.com/104x104',
+    image: '/logo/logo1.png',
   },
   {
     month: 'Aug',
@@ -39,7 +39,7 @@ const projects = [
     category: 'HOTEL',
     title: 'Grand Blue Resort',
     description: 'Seaside hotel project featuring 40 luxury rooms, pool deck, spa, and a rooftop restaurant.',
-    image: 'https://dummyimage.com/105x105',
+    image: '/logo/logo1.png',
   },
   {
     month: 'Sep',
@@ -47,7 +47,7 @@ const projects = [
     category: 'RENOVATION',
     title: 'Heritage Building Restoration',
     description: 'Restoration of a colonial-era building maintaining original aesthetics with modern safety standards.',
-    image: 'https://dummyimage.com/106x106',
+    image: '/logo/logo1.png',
   },
 ];
 

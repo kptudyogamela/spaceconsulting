@@ -26,22 +26,22 @@ export default function Footer() {
             <nav className="list-none mb-10 space-y-2">
               <ul className="list-none mb-10 space-y-2">
                 <li>
-                  <Link href="/about" className="text-gray-600 hover:text-gray-800">
+                  <Link href="/about" className="text-gray-600 hover:text-red-500">
                     About Us
                   </Link>
                 </li>
                 <li>
-                  <Link href="/Services" className="text-gray-600 hover:text-gray-800">
+                  <Link href="/Services" className="text-gray-600 hover:text-red-500">
                     Services
                   </Link>
                 </li>
                 <li>
-                  <Link href="/CompletedProjects" className="text-gray-600 hover:text-gray-800">
+                  <Link href="/CompletedProjects" className="text-gray-600 hover:text-red-500">
                     Projects
                   </Link>
                 </li>
                 <li>
-                  <Link href="/Contact" className="text-gray-600 hover:text-gray-800">
+                  <Link href="/Contact" className="text-gray-600 hover:text-red-500">
                     Contact
                   </Link>
                 </li>
@@ -52,12 +52,49 @@ export default function Footer() {
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-red-500 tracking-widest text-sm mb-3">Legal</h2>
             <nav className="list-none mb-10 space-y-2">
-              <li><span className="text-gray-600">Terms & Conditions</span></li>
-              <li><span className="text-gray-600">Privacy Policy</span></li>
-              <li><span className="text-gray-600">Disclaimer</span></li>
-              <li><span className="text-gray-600">Certifications</span></li>
+              <li>
+                <a
+                  href="/files/terms.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-red-500 cursor-pointer"
+                >
+                  Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/files/privacy.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-red-500 cursor-pointer"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/files/disclaimer.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-red-500 cursor-pointer"
+                >
+                  Disclaimer
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/files/certifications.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-red-500 cursor-pointer"
+                >
+                  Certifications
+                </a>
+              </li>
             </nav>
           </div>
+
           {/* Contact Section */}
           <div className="lg:w-1/2 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-red-500 tracking-widest text-sm mb-3">Contact</h2>
@@ -80,14 +117,16 @@ export default function Footer() {
 
       {/* Copyright and Social Media Section */}
       <div className="bg-gray-100 py-4">
-        <div className="container mx-auto flex flex-wrap items-center justify-between">
-          <p className="text-gray-500 text-sm">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+          <p className="text-gray-500 text-sm text-center md:text-left">
             © {new Date().getFullYear()} Space Consulting — All rights reserved.
           </p>
-          <p className="text-gray-500 text-sm">
+
+          <p className="text-gray-500 text-sm text-center md:text-left">
             Maintained by Swasyaha Solutions.
           </p>
-          <div className="flex space-x-4 mr-20">
+
+          <div className="flex justify-center md:justify-end space-x-4">
             <a href="#" className="text-gray-600 hover:text-blue-600">
               <FaFacebookF />
             </a>
