@@ -6,7 +6,7 @@ export default function Contact() {
           Get in Touch
         </h1>
         <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500">
-          Reach out for project consultations, inquiries, or partnerships. Let's build something great together.
+          Reach out for project consultations, inquiries, or partnerships. Let us build something great together.
         </p>
         <div className="flex mt-6 justify-center">
           <div className="w-16 h-1 rounded-full bg-red-500 inline-flex"></div>
@@ -22,10 +22,7 @@ export default function Contact() {
               width="100%"
               height="100%"
               className="absolute inset-0"
-              frameBorder="0"
               title="map"
-              marginHeight="0"
-              marginWidth="0"
               scrolling="no"
               src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=Space%20Consulting,%20Chamarajanagar,%20Karnataka&ie=UTF8&t=&z=14&iwloc=B&output=embed"
               style={{
